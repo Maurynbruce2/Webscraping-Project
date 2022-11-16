@@ -34,7 +34,7 @@ for verse in page_verses:
 myverse = random.choice(verse_list[:len(verse_list)-5])
 #print(f"Chapter: {random_chapter}, Verse: {myverse}")
 
-message = "Chapter: " + random_chapter + " Verse: " + myverse
+message = "Chapter: " + random_chapter + " Verse: " +  myverse
 
 print(message)
 
